@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText(' adrian@jsmastery.pro');
+    navigator.clipboard.writeText(' moqeet1998@gmail.com');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -25,7 +25,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Moqeet ul hassan</p>
               <p className="grid-subtext">
-                With 5 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
+                With 3 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
                 and responsive websites.
               </p>
             </div>
