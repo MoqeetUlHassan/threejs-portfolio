@@ -28,9 +28,9 @@ export const myProjects = [
     desc: 'Apimio is a comprehensive Product Information Management (PIMS) platform, enabling businesses to centralize, enrich, and distribute product data across multiple sales channels. It improves operational efficiency and ensures product data consistency.',
     subdesc:
       'Built with Laravel, Vue.js, and TailwindCSS, Apimio offers scalable solutions for managing product catalogs efficiently.',
-    href: 'https://www.youtube.com/watch?v=sample-apimio-demo',
+    href: 'https://app.apimio.com/',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo-apimio.png',
+    logo: '/assets/apimio.svg',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -60,9 +60,9 @@ export const myProjects = [
     desc: 'Keystone is a powerful trucking management system designed to streamline logistics operations. It handles fleet tracking, route optimization, and scheduling to ensure smooth transportation workflows.',
     subdesc:
       'Developed with Django, React.js, and PostgreSQL, Keystone is tailored for the logistics industry, ensuring real-time data accuracy and operational efficiency.',
-    href: 'https://www.youtube.com/watch?v=sample-keystone-demo',
+    href: 'https://phpstack-980736-3458264.cloudwaysapps.com/',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo-keystone.png',
+    logo: '/assets/keystone.svg',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -92,7 +92,7 @@ export const myProjects = [
     desc: 'Mausam is a lightweight and user-friendly weather application providing real-time weather updates, forecasts, and alerts. It leverages API integrations for accurate weather predictions.',
     subdesc:
       'Built with React.js, Node.js, and OpenWeather API, Mausam ensures quick and reliable weather data delivery for users worldwide.',
-    href: 'https://www.youtube.com/watch?v=sample-mausam-demo',
+    href: 'https://mausam.pk/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/project-logo-mausam.png',
     logoStyle: {
@@ -126,7 +126,7 @@ export const myProjects = [
     desc: 'BOVIT is an event management system designed to streamline ticket sales, attendee management, and event organization for large-scale events.',
     subdesc:
       'Powered by Next.js, Stripe, and Firebase, BOVIT offers a robust and secure platform for managing events and payments with ease.',
-    href: 'https://www.youtube.com/watch?v=sample-bovit-demo',
+    href: 'https://www.youtube.com/',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/project-logo-bovit.png',
     logoStyle: {
