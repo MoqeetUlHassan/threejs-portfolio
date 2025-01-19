@@ -52,13 +52,12 @@ const About = () => {
               <Globe
                 height={326}
                 width={326}
-                backgroundColor="rgba(0, 0, 0, 0)"
+                backgroundColor="rgba(255, 255, 255, 0)"
                 backgroundImageOpacity={0.5}
-                showAtmosphere
-                showGraticules
+                rotateSpeed={0.5}
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Islamabad, Paksitan', color: 'white', size: 15 }]}
+                labelsData={[{ lat: 33.6844, lng: 73.0479, text: 'Islamabad, Pakistan', color: 'white', size: 15 }]}
               />
             </div>
             <div>
