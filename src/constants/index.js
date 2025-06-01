@@ -36,22 +36,22 @@ export const myProjects = [
       border: '0.2px solid #36201D',
       boxShadow: '0px 0px 60px 0px #AA3C304D',
     },
-    spotlight: './threejs-portfolio/assets/spotlight1.png',
+    spotlight: './assets/spotlight1.png',
     tags: [
       {
         id: 1,
         name: 'Laravel',
-        path: '/threejs-portfolio/assets/laravel.svg',
+        path: '/assets/laravel.svg',
       },
       {
         id: 2,
         name: 'Vue.js',
-        path: '/threejs-portfolio/assets/vue.svg',
+        path: '/assets/vue.svg',
       },
       {
         id: 3,
         name: 'TailwindCSS',
-        path: '/threejs-portfolio/assets/tailwindcss.png',
+        path: 'assets/tailwindcss.png',
       },
     ],
   },
