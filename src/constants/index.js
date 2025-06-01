@@ -41,7 +41,7 @@ export const myProjects = [
       {
         id: 1,
         name: 'Laravel',
-        path: '/assets/laravel.svg',
+        path: './assets/laravel.svg',
       },
       {
         id: 2,
