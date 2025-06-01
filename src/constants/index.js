@@ -30,7 +30,7 @@ export const myProjects = [
       'Built with Laravel, Vue.js, and TailwindCSS, Apimio offers scalable solutions for managing product catalogs efficiently.',
     href: 'https://app.apimio.com/',
     texture: '/textures/project/project1.mp4',
-    logo: '/threejs-portfolio/assets/apimio.svg',
+    logo: './threejs-portfolio/assets/apimio.svg',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
