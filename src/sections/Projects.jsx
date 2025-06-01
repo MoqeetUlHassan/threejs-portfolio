@@ -65,17 +65,18 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer">
               <p>Check Live Site</p>
-              <img src={`${import.meta.env.BASE_URL}assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
+              <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
             </a>
           </div>
 
           <div className="flex justify-between items-center mt-7">
             <button className="arrow-btn" onClick={() => handleNavigation('previous')}>
-              <img src={`${import.meta.env.BASE_URL}assets/left-arrow.png" alt="left arrow" />
+              <img src="/assets/left-arrow.png" alt="left arrow" />
             </button>
 
             <button className="arrow-btn" onClick={() => handleNavigation('next')}>
-              <img src={`${import.meta.env.BASE_URL}assets/right-arrow.png" alt="right arrow" className="w-4 h-4" />
+              {/* new URL('./models/hacker-room.glb', import.meta.url) */}
+              <img src="/threejs-portfolio/assets/right-arrow.png" alt="right arrow" className="w-4 h-4" />
             </button>
           </div>
         </div>
