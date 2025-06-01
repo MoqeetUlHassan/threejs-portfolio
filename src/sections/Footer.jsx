@@ -9,16 +9,16 @@ const Footer = () => {
 
       <div className="flex gap-3">
         <a href="https://github.com/MoqeetUlHassan" className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+          <img src={`${import.meta.env.BASE_URL}assets/github.svg" alt="github" className="w-1/2 h-1/2" />
         </a>
         <a href="https://x.com/moqeet1998" className="social-icon">
-          <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
+          <img src={`${import.meta.env.BASE_URL}assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
         </a>
         <a href="https://www.instagram.com/nugatorypoetry/" className="social-icon">
-          <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+          <img src={`${import.meta.env.BASE_URL}assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
         </a>
         <a href="https://www.linkedin.com/in/moqeet-ul-hassan/" className="social-icon">
-          <img src="/assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
+          <img src={`${import.meta.env.BASE_URL}assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
         </a>
       </div>
 
