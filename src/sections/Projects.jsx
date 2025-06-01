@@ -76,7 +76,7 @@ const Projects = () => {
 
             <button className="arrow-btn" onClick={() => handleNavigation('next')}>
               {/* new URL('./models/hacker-room.glb', import.meta.url) */}
-              <img src="/threejs-portfolio/threejs-portfolio/assets/right-arrow.png" alt="right arrow" className="w-4 h-4" />
+              <img src="/threejs-portfolio/assets/right-arrow.png" alt="right arrow" className="w-4 h-4" />
             </button>
           </div>
         </div>
