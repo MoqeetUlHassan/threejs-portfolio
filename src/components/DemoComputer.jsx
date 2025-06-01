@@ -9,7 +9,7 @@ import { useGSAP } from '@gsap/react';
 
 const DemoComputer = (props) => {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF(new URL('./models/computer.glb', import.meta.url).href);
+  const { nodes, materials, animations } = useGLTF('./models/computer.glb');
   const { actions } = useAnimations(animations, group);
 
   const txt = useVideoTexture(props.texture ? props.texture : '/textures/project/project1.mp4');
@@ -1011,6 +1011,6 @@ const DemoComputer = (props) => {
   );
 };
 
-useGLTF.preload(new URL('./models/computer.glb', import.meta.url).href);
+useGLTF.preload('./models/computer.glb');
 
 export default DemoComputer;
